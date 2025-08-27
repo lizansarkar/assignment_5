@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- daysyui cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- tailwind cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Assignment 5</title>
+</head>
+<body>
+    <!-- nav section -->
+    <nav class="flex items-center justify-between">
+        <div>
+            <div class="nav-logo cursor-pointer">
+                <img src="assets/nav-logo.png" alt="Logo">
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <button id="heart-count" class="heart-btn flex items-center text-[16px] bg-[#41FF6B1A] rounded-[30%] font-bold gap-3"><span>0</span><img src="assets/heart.png" alt="" class="h-8 w-8"></button>
+
+            <button id="coin-count" class="heart-btn flex items-center text-[16px] bg-[#41FF6B1A] rounded-[30%] font-bold gap-3"><span>100</span><img src="assets/coin.png" alt="" class="h-8 w-8"></button>
+
+            <button id="copy-count" class="btn-primary rounded-[50px] text-[#ffffff] font-bold cursor-copy">2 Copy</button>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <section class="banner-section bg-[linear-gradient(to_right,#013223,#006747,#013223)] flex items-center justify-center">
+        <div class="flex flex-col items-center gap-5">
+            <img src="assets/logo-dark.png" alt="banner logo" class="h-20 w-20">
+            <h1 class="text-[40px] font-bold">জরুরি সেবা ডিরেক্টরি</h1>
+            <p class="text-[20px]">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+        </div>
+    </section>
+    <!-- main section -->
+    <section class="main-section bg-[#69ff891a] items-center">
+        <div class="container">
+            <div class="service-container w-[75%] h-[100%]">
+
+                <div class="service-box service-box-1">
+                    <div class="flex items-center justify-between">
+                        <div class="service-img bg-[#FFE3E2]"><img src="assets/emergency.png" alt="emergency" class="h-[32px] w-[32px]"></div>
+                        <i class="fa-regular fa-heart cursor-pointer"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-[24px] font-bold">জাতীয় জরুরি সেবা</h1>
+                        <p class="text-[18px]">National Emergency</p>
+                    </div>
+                    <div>
+                        <h1 class="text-[32px] font-bold">999</h1>
+                        <button class="btn btn-soft number-check-btn text-[18px] text-[#5C5C5C]">সার্বজনীন</button>
+                    </div>
+                    <div class="service-btn-container flex justify-between">
+                        <button class="copy-btn btn w-[49%]"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button class="call-btn btn w-[49%]"><i class="fa-solid fa-phone"></i> Call</button>
+                    </div>
+                </div>
+                
+                <div class="service-box service-box-2">
+                    <div class="flex items-center justify-between">
+                        <div class="service-img bg-[#FFE3E2]"><img src="assets/emergency.png" alt="emergency" class="h-[32px] w-[32px]"></div>
+                        <i class="fa-regular fa-heart cursor-pointer"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-[24px] font-bold">জাতীয় জরুরি সেবা</h1>
+                        <p class="text-[18px]">National Emergency</p>
+                    </div>
+                    <div>
+                        <h1 class="text-[32px] font-bold">999</h1>
+                        <button class="btn btn-soft number-check-btn text-[18px] text-[#5C5C5C]">সার্বজনীন</button>
+                    </div>
+                    <div class="service-btn-container flex justify-between">
+                        <button class="copy-btn btn w-[49%]"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button class="call-btn btn w-[49%]"><i class="fa-solid fa-phone"></i> Call</button>
+                    </div>
+                </div>
+
+                <div class="service-box service-box-3">
+                    <div class="flex items-center justify-between">
+                        <div class="service-img bg-[#FFE3E2]"><img src="assets/emergency.png" alt="emergency" class="h-[32px] w-[32px]"></div>
+                        <i class="fa-regular fa-heart cursor-pointer"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-[24px] font-bold">জাতীয় জরুরি সেবা</h1>
+                        <p class="text-[18px]">National Emergency</p>
+                    </div>
+                    <div>
+                        <h1 class="text-[32px] font-bold">999</h1>
+                        <button class="btn btn-soft number-check-btn text-[18px] text-[#5C5C5C]">সার্বজনীন</button>
+                    </div>
+                    <div class="service-btn-container flex justify-between">
+                        <button class="copy-btn btn w-[49%]"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button class="call-btn btn w-[49%]"><i class="fa-solid fa-phone"></i> Call</button>
+                    </div>
+                </div>
+
+                <div class="service-box service-box-4">
+                    <div class="flex items-center justify-between">
+                        <div class="service-img bg-[#FFE3E2]"><img src="assets/emergency.png" alt="emergency" class="h-[32px] w-[32px]"></div>
+                        <i class="fa-regular fa-heart cursor-pointer"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-[24px] font-bold">জাতীয় জরুরি সেবা</h1>
+                        <p class="text-[18px]">National Emergency</p>
+                    </div>
+                    <div>
+                        <h1 class="text-[32px] font-bold">999</h1>
+                        <button class="btn btn-soft number-check-btn text-[18px] text-[#5C5C5C]">সার্বজনীন</button>
+                    </div>
+                    <div class="service-btn-container flex justify-between">
+                        <button class="copy-btn btn w-[49%]"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button class="call-btn btn w-[49%]"><i class="fa-solid fa-phone"></i> Call</button>
+                    </div>
+                </div>
+
+                <div class="service-box service-box-5">
+                    <div class="flex items-center justify-between">
+                        <div class="service-img bg-[#FFE3E2]"><img src="assets/emergency.png" alt="emergency" class="h-[32px] w-[32px]"></div>
+                        <i class="fa-regular fa-heart cursor-pointer"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-[24px] font-bold">জাতীয় জরুরি সেবা</h1>
+                        <p class="text-[18px]">National Emergency</p>
+                    </div>
+                    <div>
+                        <h1 class="text-[32px] font-bold">999</h1>
+                        <button class="btn btn-soft number-check-btn text-[18px] text-[#5C5C5C]">সার্বজনীন</button>
+                    </div>
+                    <div class="service-btn-container flex justify-between">
+                        <button class="copy-btn btn w-[49%]"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button class="call-btn btn w-[49%]"><i class="fa-solid fa-phone"></i> Call</button>
+                    </div>
+                </div>
+
+                <div class="service-box service-box-6">
+                    <div class="flex items-center justify-between">
+                        <div class="service-img bg-[#FFE3E2]"><img src="assets/emergency.png" alt="emergency" class="h-[32px] w-[32px]"></div>
+                        <i class="fa-regular fa-heart cursor-pointer"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-[24px] font-bold">জাতীয় জরুরি সেবা</h1>
+                        <p class="text-[18px]">National Emergency</p>
+                    </div>
+                    <div>
+                        <h1 class="text-[32px] font-bold">999</h1>
+                        <button class="btn btn-soft number-check-btn text-[18px] text-[#5C5C5C]">সার্বজনীন</button>
+                    </div>
+                    <div class="service-btn-container flex justify-between">
+                        <button class="copy-btn btn w-[49%]"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button class="call-btn btn w-[49%]"><i class="fa-solid fa-phone"></i> Call</button>
+                    </div>
+                </div>
+
+                <div class="service-box service-box-7">
+                    <div class="flex items-center justify-between">
+                        <div class="service-img bg-[#FFE3E2]"><img src="assets/emergency.png" alt="emergency" class="h-[32px] w-[32px]"></div>
+                        <i class="fa-regular fa-heart cursor-pointer"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-[24px] font-bold">জাতীয় জরুরি সেবা</h1>
+                        <p class="text-[18px]">National Emergency</p>
+                    </div>
+                    <div>
+                        <h1 class="text-[32px] font-bold">999</h1>
+                        <button class="btn btn-soft number-check-btn text-[18px] text-[#5C5C5C]">সার্বজনীন</button>
+                    </div>
+                    <div class="service-btn-container flex justify-between">
+                        <button class="copy-btn btn w-[49%]"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button class="call-btn btn w-[49%]"><i class="fa-solid fa-phone"></i> Call</button>
+                    </div>
+                </div>
+
+                <div class="service-box service-box-8">
+                    <div class="flex items-center justify-between">
+                        <div class="service-img bg-[#FFE3E2]"><img src="assets/emergency.png" alt="emergency" class="h-[32px] w-[32px]"></div>
+                        <i class="fa-regular fa-heart cursor-pointer"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-[24px] font-bold">জাতীয় জরুরি সেবা</h1>
+                        <p class="text-[18px]">National Emergency</p>
+                    </div>
+                    <div>
+                        <h1 class="text-[32px] font-bold">999</h1>
+                        <button class="btn btn-soft number-check-btn text-[18px] text-[#5C5C5C]">সার্বজনীন</button>
+                    </div>
+                    <div class="service-btn-container flex justify-between">
+                        <button class="copy-btn btn w-[49%]"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button class="call-btn btn w-[49%]"><i class="fa-solid fa-phone"></i> Call</button>
+                    </div>
+                </div>
+
+                <div class="service-box service-box-9">
+                    <div class="flex items-center justify-between">
+                        <div class="service-img bg-[#FFE3E2]"><img src="assets/emergency.png" alt="emergency" class="h-[32px] w-[32px]"></div>
+                        <i class="fa-regular fa-heart cursor-pointer"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-[24px] font-bold">জাতীয় জরুরি সেবা</h1>
+                        <p class="text-[18px]">National Emergency</p>
+                    </div>
+                    <div>
+                        <h1 class="text-[32px] font-bold">999</h1>
+                        <button class="btn btn-soft number-check-btn text-[18px] text-[#5C5C5C]">সার্বজনীন</button>
+                    </div>
+                    <div class="service-btn-container flex justify-between">
+                        <button class="copy-btn btn w-[49%]"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button class="call-btn btn w-[49%]"><i class="fa-solid fa-phone"></i> Call</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="call-history w-[350px] h-[100%] bg-[#ffffff]">
+                <div class="flex items-center justify-between">
+                    <h1 class="font-bold text-[20px]"><i class="fa-solid fa-clock-rotate-left"></i> Call History</h1>
+                    <button id="btn-clear" class="btn-primary rounded-[50px] text-[#ffffff] font-bold">Clear</button>
+                </div>
+                <div class="history-container">
+                    <div class="history flex items-center justify-between">
+                        <div class="history-text">
+                            <h1 class="text-[18px]">জাতীয় জরুরি সেবা</h1>
+                            <p class="text-[18px]">999</p>
+                        </div>
+                        <div class="history-time">11:36:58 AM</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- js link -->
+     <script src="script.js"></script>
+</body>
+</html>
