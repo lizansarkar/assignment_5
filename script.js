@@ -16,6 +16,7 @@ heartIcon.forEach((heart) => {
 // call button work ************
 let coinNumber = document.getElementById("coin");
 let callButton = document.querySelectorAll(".call-btn");
+let callHistory = document.querySelector(".history-container");
 let availableCoin = 100;
 
 callButton.forEach((call) => {
@@ -47,7 +48,6 @@ callButton.forEach((call) => {
         let nowTime = `${hours}:${minutes}:${seconds} ${amPm}`;
         // console.log(nowTime);
 
-        let callHistory = document.querySelector(".history-container");
         let div = document.createElement("div");
         div.innerHTML = `
                     <div class="history flex items-center justify-between">
@@ -80,15 +80,15 @@ copyButton.forEach((copy) => {
         console.log(serviceNumber);
 
         navigator.clipboard.writeText(serviceNumber);
-    })
+    });
 });
 
+// clear history button work ****************
+let clearHistoryBtn = document.getElementById("btn-clear");
 
-
-
-let now = new Date();
-console.log(now);
-
+clearHistoryBtn.addEventListener("click", () => {
+    callHistory.innerHTML = "";
+});
 
 
 
